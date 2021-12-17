@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F378326FBBB96166254F72E /* Pods_CrowdinXibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720999977D6711AA9436D993 /* Pods_CrowdinXibTest.framework */; };
 		E8BD3DBB2763C74800F59972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD3DBA2763C74800F59972 /* AppDelegate.swift */; };
-		E8BD3DBD2763C74800F59972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD3DBC2763C74800F59972 /* SceneDelegate.swift */; };
 		E8BD3DBF2763C74800F59972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD3DBE2763C74800F59972 /* ViewController.swift */; };
-		E8BD3DC22763C74800F59972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BD3DC02763C74800F59972 /* Main.storyboard */; };
 		E8BD3DC42763C74900F59972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BD3DC32763C74900F59972 /* Assets.xcassets */; };
 		E8BD3DC72763C74900F59972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BD3DC52763C74900F59972 /* LaunchScreen.storyboard */; };
+		E8BD3DDA2763C7D100F59972 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BD3DDC2763C7D100F59972 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A945F4528814E006CE2C763 /* Pods-CrowdinXibTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdinXibTest.release.xcconfig"; path = "Target Support Files/Pods-CrowdinXibTest/Pods-CrowdinXibTest.release.xcconfig"; sourceTree = "<group>"; };
+		720999977D6711AA9436D993 /* Pods_CrowdinXibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrowdinXibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2734C658CBCEB0A291E490 /* Pods-CrowdinXibTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdinXibTest.debug.xcconfig"; path = "Target Support Files/Pods-CrowdinXibTest/Pods-CrowdinXibTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E8BD3DB72763C74800F59972 /* CrowdinXibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdinXibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BD3DBA2763C74800F59972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8BD3DBC2763C74800F59972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E8BD3DBE2763C74800F59972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E8BD3DC12763C74800F59972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8BD3DC32763C74900F59972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8BD3DC62763C74900F59972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8BD3DC82763C74900F59972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BD3DD32763C78500F59972 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E8BD3DD52763C78F00F59972 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E8BD3DD92763C7A800F59972 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E8BD3DDB2763C7D100F59972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E8BD3DDE2763C7D300F59972 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
+		E8BD3DE02763C7D400F59972 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ViewController.strings; sourceTree = "<group>"; };
+		E8BD3DE22763C7D400F59972 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/ViewController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F378326FBBB96166254F72E /* Pods_CrowdinXibTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF1E29DF89C3DF24D3C2E95A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				720999977D6711AA9436D993 /* Pods_CrowdinXibTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8BD3DAE2763C74800F59972 = {
 			isa = PBXGroup;
 			children = (
 				E8BD3DB92763C74800F59972 /* CrowdinXibTest */,
 				E8BD3DB82763C74800F59972 /* Products */,
+				E9AAC2920A64460102632AB8 /* Pods */,
+				CF1E29DF89C3DF24D3C2E95A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +76,22 @@
 			isa = PBXGroup;
 			children = (
 				E8BD3DBA2763C74800F59972 /* AppDelegate.swift */,
-				E8BD3DBC2763C74800F59972 /* SceneDelegate.swift */,
 				E8BD3DBE2763C74800F59972 /* ViewController.swift */,
-				E8BD3DC02763C74800F59972 /* Main.storyboard */,
+				E8BD3DDC2763C7D100F59972 /* ViewController.xib */,
 				E8BD3DC32763C74900F59972 /* Assets.xcassets */,
 				E8BD3DC52763C74900F59972 /* LaunchScreen.storyboard */,
 				E8BD3DC82763C74900F59972 /* Info.plist */,
 			);
 			path = CrowdinXibTest;
+			sourceTree = "<group>";
+		};
+		E9AAC2920A64460102632AB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB2734C658CBCEB0A291E490 /* Pods-CrowdinXibTest.debug.xcconfig */,
+				1A945F4528814E006CE2C763 /* Pods-CrowdinXibTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8BD3DCB2763C74900F59972 /* Build configuration list for PBXNativeTarget "CrowdinXibTest" */;
 			buildPhases = (
+				B2B77A7500C1C155208301F4 /* [CP] Check Pods Manifest.lock */,
 				E8BD3DB32763C74800F59972 /* Sources */,
 				E8BD3DB42763C74800F59972 /* Frameworks */,
 				E8BD3DB52763C74800F59972 /* Resources */,
+				91A7536AB9F0FDC337944D26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +138,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				uk,
 			);
 			mainGroup = E8BD3DAE2763C74800F59972;
 			productRefGroup = E8BD3DB82763C74800F59972 /* Products */;
@@ -127,11 +158,53 @@
 			files = (
 				E8BD3DC72763C74900F59972 /* LaunchScreen.storyboard in Resources */,
 				E8BD3DC42763C74900F59972 /* Assets.xcassets in Resources */,
-				E8BD3DC22763C74800F59972 /* Main.storyboard in Resources */,
+				E8BD3DDA2763C7D100F59972 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91A7536AB9F0FDC337944D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrowdinXibTest/Pods-CrowdinXibTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrowdinXibTest/Pods-CrowdinXibTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrowdinXibTest/Pods-CrowdinXibTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B77A7500C1C155208301F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrowdinXibTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8BD3DB32763C74800F59972 /* Sources */ = {
@@ -140,27 +213,32 @@
 			files = (
 				E8BD3DBF2763C74800F59972 /* ViewController.swift in Sources */,
 				E8BD3DBB2763C74800F59972 /* AppDelegate.swift in Sources */,
-				E8BD3DBD2763C74800F59972 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E8BD3DC02763C74800F59972 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8BD3DC12763C74800F59972 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E8BD3DC52763C74900F59972 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E8BD3DC62763C74900F59972 /* Base */,
+				E8BD3DD32763C78500F59972 /* de */,
+				E8BD3DD52763C78F00F59972 /* uk */,
+				E8BD3DD92763C7A800F59972 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8BD3DDC2763C7D100F59972 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BD3DDB2763C7D100F59972 /* Base */,
+				E8BD3DDE2763C7D300F59972 /* en */,
+				E8BD3DE02763C7D400F59972 /* de */,
+				E8BD3DE22763C7D400F59972 /* uk */,
+			);
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -284,6 +364,7 @@
 		};
 		E8BD3DCC2763C74900F59972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2734C658CBCEB0A291E490 /* Pods-CrowdinXibTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +375,6 @@
 				INFOPLIST_FILE = CrowdinXibTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +392,7 @@
 		};
 		E8BD3DCD2763C74900F59972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A945F4528814E006CE2C763 /* Pods-CrowdinXibTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +403,6 @@
 				INFOPLIST_FILE = CrowdinXibTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

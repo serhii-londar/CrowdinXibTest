@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F78490F2-ECE7-4F14-93AA-476314081BB5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "867900CB-C61D-4BE8-B43E-D1911300E478"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CrowdinSDK/CrowdinSDK/Classes/Providers/Crowdin/LocalizationDownloader/Operations/CrowdinXliffDownloadOperation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "867900CB-C61D-4BE8-B43E-D1911300E478 - 5d39ec9aaf8c3579"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CrowdinSDK.XliffDictionaryParser.parse(xliffDict: Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; (Swift.Dictionary&lt;Swift.String, Swift.String&gt;, Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;)"
+                  moduleName = "CrowdinSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhii-londar/projects/CrowdinXibTest/Pods/CrowdinSDK/CrowdinSDK/Classes/Providers/Crowdin/LocalizationDownloader/Operations/CrowdinXliffDownloadOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "867900CB-C61D-4BE8-B43E-D1911300E478 - 25f6892769107643"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CrowdinSDK.XliffDictionaryParser.deinit"
+                  moduleName = "CrowdinSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhii-londar/projects/CrowdinXibTest/Pods/CrowdinSDK/CrowdinSDK/Classes/Providers/Crowdin/LocalizationDownloader/Operations/CrowdinXliffDownloadOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "867900CB-C61D-4BE8-B43E-D1911300E478 - cb643a5919be7f30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CrowdinSDK.XliffDictionaryParser.__deallocating_deinit"
+                  moduleName = "CrowdinSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhii-londar/projects/CrowdinXibTest/Pods/CrowdinSDK/CrowdinSDK/Classes/Providers/Crowdin/LocalizationDownloader/Operations/CrowdinXliffDownloadOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "867900CB-C61D-4BE8-B43E-D1911300E478 - 8d50a9ed60782b42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CrowdinSDK.XliffDictionaryParser.__allocating_init() -&gt; CrowdinSDK.XliffDictionaryParser"
+                  moduleName = "CrowdinSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhii-londar/projects/CrowdinXibTest/Pods/CrowdinSDK/CrowdinSDK/Classes/Providers/Crowdin/LocalizationDownloader/Operations/CrowdinXliffDownloadOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "867900CB-C61D-4BE8-B43E-D1911300E478 - 761c65815c6d15c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CrowdinSDK.XliffDictionaryParser.init() -&gt; CrowdinSDK.XliffDictionaryParser"
+                  moduleName = "CrowdinSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhii-londar/projects/CrowdinXibTest/Pods/CrowdinSDK/CrowdinSDK/Classes/Providers/Crowdin/LocalizationDownloader/Operations/CrowdinXliffDownloadOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

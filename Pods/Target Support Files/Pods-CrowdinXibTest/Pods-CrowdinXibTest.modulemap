@@ -1,0 +1,6 @@
+framework module Pods_CrowdinXibTest {
+  umbrella header "Pods-CrowdinXibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
